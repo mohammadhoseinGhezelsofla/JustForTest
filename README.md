@@ -4,6 +4,8 @@ We are here to just test some of markdown language things.
 Also, we are here to exercise some of git commands.  
 Lets commit this text until now.  
 
+---
+
 ## Second commit:
 Hi again.  
 It is second commit and I'm going to add a list with markdown language too.  
@@ -14,6 +16,9 @@ OK, lets see:
 - and maybe fourst option, who knows
 
 OK, Lets commit it and send this repo to github.
+
+---
+
 ## O, Bad!
 What happened?  
 I made a repo in my github.  
@@ -23,9 +28,30 @@ I asked [chat gpt](https://chatgpt.com).
 2. Add a space (" ") after your # sign!
 
 OK, lets do these things and see what will happened!
+
+---
+
 ## Wow! we made it!
 OK, we made it really good!  
 But why my texts are not line by line seperated?  
 Lets ask again from chat gpt!  
 > Use two spaces before you press enter go to to new line!  
 OK! Lets commit it until now, and add two spaces, and commit again!
+
+---
+
+## O, by the way!
+When I wanted to fix the readme file, I used `git add README.md`.  
+I got no error.  
+Then I used `git commit` command, but I got an error that telling me you did not add anything for this commit!  
+### O, what?  
+In fact, we added this readme file with lower letters `readme.md`. Then I renamed it in my windows explorer, but git not understood it.  
+So I used these commands:
+```git
+git mv README.md temp.md
+git mv temp.md README.md
+```
+OK, lets commit now!
+`commit -m "fixed readme file!"`
+## before go
+I want to also seperate each part of commit with seperator tag in markdown. What is this sign? aha! three dashes! Lets do it!
