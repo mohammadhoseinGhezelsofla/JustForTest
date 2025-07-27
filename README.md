@@ -23,3 +23,9 @@ I asked [chat gpt](https://chatgpt.com).
 2. Add a space (" ") after your # sign!
 
 OK, lets do these things and see what will happened!
+## Wow! we made it!
+OK, we made it really good!
+But why my texts are not line by line seperated?
+Lets ask again from chat gpt!
+> Use two spaces before you press enter go to to new line!
+OK! Lets commit it until now, and add two spaces, and commit again!
