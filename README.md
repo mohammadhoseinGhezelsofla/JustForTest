@@ -55,3 +55,8 @@ OK, lets commit now!
 `commit -m "fixed readme file!"`
 ## before go
 I want to also seperate each part of commit with seperator tag in markdown. What is this sign? aha! three dashes! Lets do it!
+
+---
+
+## Final note:
+OK, I now know how to manage a README.md file, and have a few experience about working with a git repo!
